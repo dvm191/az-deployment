@@ -2,5 +2,5 @@
 # resource_group_name  = "rg01-trs-001-gwc-gxp-mtr"
 # storage_account_name = "sa01trs01gwcgmtr"
 # container_name       = "tfstate"
-# key                  = "ccoe-az-tf-deployment-lvl0.devbnt.non-gxp-landing-zones.non-qualified-dev.xyz-123-gwc-devbnt.gwc.terraformState.dev.lvl0.tfstate"                       
+# key                  = "lvl0.<subscription_name>.gwc.terraformState.dev.lvl0.tfstate"                       
 # use_azuread_auth     = true
