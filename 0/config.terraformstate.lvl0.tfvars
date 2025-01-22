@@ -57,6 +57,7 @@ inputs = {
         customerManagedKeyRbac          = false
         sharedAccessKeyEnabled          = true
         localUserEnabled                = false
+        allowNestedItemsToBePublic      = true
         networkRules = {
           defaultAction           = "Deny"
           bypass                  = ["AzureServices"]
