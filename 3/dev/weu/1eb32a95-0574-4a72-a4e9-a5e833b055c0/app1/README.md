@@ -16,9 +16,9 @@ Set-Content -Path 'env:ARM_CLIENT_ID' -Value 728a254f-6140-4fb4-bc20-cdc5509a543
 Set-Content -Path 'env:ARM_TENANT_ID' -Value 6cf3e972-5740-433e-9b79-f28fd42d7a76
 Set-Content -Path 'env:ARM_SUBSCRIPTION_ID' -Value 1eb32a95-0574-4a72-a4e9-a5e833b055c0
 # 2
-terraform init -backend-config=terraform init -backend-config="..\..\..\..\az-deployment\3\dev\weu\1eb32a95-0574-4a72-a4e9-a5e833b055c0\backend.terraformstate.lvl0.hcl"
+terraform init -backend-config="..\..\..\..\az-deployment\3\dev\weu\1eb32a95-0574-4a72-a4e9-a5e833b055c0\app1\backend.terraformstate.app1.hcl"
 # 3
-terraform plan -var-file="..\..\..\..\az-deployment\3\dev\weu\1eb32a95-0574-4a72-a4e9-a5e833b055c0\config.terraformstate.lvl3.tfvars"
+terraform plan -var-file="..\..\..\..\az-deployment\3\dev\weu\1eb32a95-0574-4a72-a4e9-a5e833b055c0\app1\config.terraformstate.app1.tfvars"
 # 4
-terraform apply -var-file="..\..\..\..\az-deployment\3\dev\weu\1eb32a95-0574-4a72-a4e9-a5e833b055c0\config.terraformstate.lvl0.tfvars"
+terraform apply -var-file="..\..\..\..\az-deployment\3\dev\weu\1eb32a95-0574-4a72-a4e9-a5e833b055c0\app1\config.terraformstate.app1.tfvars"
 ```

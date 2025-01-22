@@ -1,7 +1,7 @@
 inputs = {
   values = {    
     instance        = "01"
-    workload        = "tfstate"
+    workload        = "app"
     region          = "weu"
     complianceLevel = "nongxp"
     stage           = "dev"
